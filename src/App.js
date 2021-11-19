@@ -33,7 +33,9 @@ function App() {
           <Routes>
             <Route
               path="/"
-              element={<TextForm heading="Enter a text to analyze." />}
+              element={
+                <TextForm heading="Enter a text to analyze." mode={mode} />
+              }
             ></Route>
             <Route path="/About" element={<About />}></Route>
           </Routes>

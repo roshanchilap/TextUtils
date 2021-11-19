@@ -56,3 +56,9 @@
 textarea {
   resize: none;
 }
+
+.n1 {
+  border-radius: 9px;
+  border: 1px solid #387785;
+  margin: 1px;
+}
